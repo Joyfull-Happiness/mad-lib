@@ -62,23 +62,86 @@
             placeholder="something you'd yell"
             required
           />
-          at confused tourists. Suddenly, she turned left at a [Random NYC
-          Landmark] and ended up in a [Unexpected location, like ‘underwater
-          jazz club’], where a [Silly Animal] was breakdancing.
+          at confused tourists. Suddenly, she turned left at a
+
+          <label for="landmarks"></label>
+          <select id="landmarks" name="landmarks" required>
+            <option value="">--Choose an NYC landmark--</option>
+            <option vlaue="option_one">Statue of liberty</option>
+            <option value="option_two">Time Square</option>
+            <option value="option_three">Empire State Building</option>
+            <option value="option_four">Central Park</option>
+          </select>
+
+          and ended up in a
+          <label for="location"></label>
+          <input
+            type="text"
+            id="location"
+            name="location"
+            placeholder="Underwater Jazz Club"
+            required
+          />, where a
+          <label for="animal"></label>
+          <input
+            type="text"
+            id="animal"
+            name="animal"
+            placeholder="Silly Animal"
+            required
+          />
+          was breakdancing.
+        </p>
+        <p>
+          Feeling lost, she tried to
+          <label for="actionVerb"></label>
+          <input
+            type="text"
+            id="actionVerb"
+            name="actionVerb"
+            placeholder="Action Verb"
+            required
+          />
+          , but tripped over someone’s spilled
+          <label for="favDrink"></label>
+          <input
+            type="text"
+            id="favDrink"
+            name="favDrink"
+            placeholder="Favorite drink"
+            required
+          />. Desperate, she called
+          <label for="celebName"></label>
+          <input
+            type="text"
+            id="celebName"
+            name="celebName"
+            placeholder="Your favorite celebrity Name"
+            required
+          />
+
+          , who said, “Girl, just use Google Maps!” But our hero insisted on
+          using her sense of direction instead.
         </p>
 
-        <div class="email">
+        <p>
+          After hours of wandering past a [Strange sight in the city], she
+          finally stumbled upon a cart. The vendor looked her dead in the eye
+          and said, “Cash only.” She pulled out a [Weird Currency] and vanished
+          in a puff of mustard-scented smoke.
+        </p>
+
+        <p>
+          Later, she sent an email to HQ from her top-secret address:
           <label for="email">Email:</label>
           <input
             type="email"
             id="email"
             name="user_email"
-            placeholder="Asia@gmail.com"
+            placeholder="Superwoamn@gmail.com"
             required
           />
-        </div>
-
-        <div class="phone">
+          And left a voicemail from her burner phone:
           <label for="phone"
             >Phone Number:
             <small>(Format: 123-456-7890)</small>
@@ -92,17 +155,8 @@
             required
             maxlength="13"
           />
-        </div>
-
-        <div class="flavors">
-          <label for="flavors">Choose a flavor</label>
-          <select id="flavors" name="flavors" required>
-            <option value="">--Please choose an option--</option>
-            <option vlaue="chocolate">Chocolate</option>
-            <option value="vanilla">Vanilla</option>
-            <option value="strawberry">Strawberry</option>
-          </select>
-        </div>
+          And that’s the story of how NYC almost broke a superhero.
+        </p>
 
         <fieldset>
           <legend>Please choose one:</legend>
