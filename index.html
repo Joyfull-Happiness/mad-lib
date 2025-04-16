@@ -125,10 +125,32 @@
         </p>
 
         <p>
-          After hours of wandering past a [Strange sight in the city], she
-          finally stumbled upon a cart. The vendor looked her dead in the eye
-          and said, “Cash only.” She pulled out a [Weird Currency] and vanished
-          in a puff of mustard-scented smoke.
+          After hours of wandering past a
+          <label for="noun"></label>
+          <input
+            type="text"
+            id="noun"
+            name="noun"
+            placeholder="Strange Noun"
+            required
+          />
+          , she finally stumbled upon a cart. The vendor looked her dead in the
+          eye and said, “Cash only.” She pulled out a
+
+          <!-- <legend></legend> -->
+
+          <input type="radio" id="currencyOne" name="radio" required />
+          <label for="currencyOne">(Cashapp)</label>
+
+          <input type="radio" id="currencyTwo" name="radio" required />
+          <label for="currencyTwo">(BitcoinWallet)</label>
+
+          <input type="radio" id="currencyThree" name="radio" required />
+          <label for="currencyThree">(loosechange)</label>
+          <input type="radio" id="currencyFour" name="radio" required />
+          <label for="currencyFour">(Seashells from Atlantis)</label>
+
+          and vanished in a puff of mustard-scented smoke.
         </p>
 
         <p>
@@ -142,10 +164,7 @@
             required
           />
           And left a voicemail from her burner phone:
-          <label for="phone"
-            >Phone Number:
-            <small>(Format: 123-456-7890)</small>
-          </label>
+          <label for="phone"></label>
           <input
             type="phone"
             id="phone"
@@ -158,30 +177,7 @@
           And that’s the story of how NYC almost broke a superhero.
         </p>
 
-        <fieldset>
-          <legend>Please choose one:</legend>
-
-          <input type="radio" id="cone" name="radio" required />
-          <label for="cone">cone</label>
-
-          <input type="radio" id="cup" name="radio" required />
-          <label for="cup">cup</label>
-        </fieldset>
-
-        <fieldset>
-          <legend>What toppings would you like?</legend>
-
-          <input type="checkbox" id="sprinkles" name="sprinkles" checked />
-          <label for="sprinkles">Sprinkles</label>
-
-          <input type="checkbox" id="fruit" name="fruit" />
-          <label for="fruit">Fruit</label>
-
-          <input type="checkbox" id="chocolateSauce" name="chocolateSauce" />
-          <label for="chocolateSauce">Chocolate</label>
-        </fieldset>
-
-        <button type="submit">Place Order</button>
+        <button type="submit">Submit</button>
       </form>
     </div>
   </body>
