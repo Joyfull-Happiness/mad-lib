@@ -7,8 +7,8 @@ function onFormSubmit() {
   const data = new FormData(e.target);
   const dataObject = Object.fromEntries(data.entries());
   console.log(dataObject);
-
   form.reset();
+
   // step 1) relate variables to html
   let namePara = document.createElement("p");
   namePara.textContent = name;
