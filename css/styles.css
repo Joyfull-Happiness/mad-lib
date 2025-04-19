@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap");
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+:root {
+  --orange: #fcc979;
+  --black: #000000;
+  --white: #ffffff;
+  --teal: #bee5ec;
+  --darkteal: #92bed9;
+  --green: #d5fcda;
+  --pink: #fccdcc;
+  --yellow: #ffedcb;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: var(--black);
+  background-color: var(--white);
+  display: inline-block;
+  padding: 2rem;
+  border-radius: 5px;
+  border: solid 0.25rem var(--black);
+}
+
+form {
+  /* align-items: center; */
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  padding: 2rem;
+  text-transform: Uppercase;
+}
+
+/* label {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+} */
+
+input,
+select,
+fieldset {
+  font-size: 1.2rem;
+  margin: 0.15rem;
+}
+fieldset {
+  background-color: var(--white);
+}
+
+legend {
+  text-decoration: solid;
+}
+button {
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+  background-color: var(--teal);
+  color: var(--black);
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  border: solid 0.25rem var(--black);
+}
+
+button:hover {
+  background-color: var(--darkteal);
+}
