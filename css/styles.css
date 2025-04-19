@@ -32,6 +32,8 @@ h1 {
   display: flex;
   flex-direction: column;
   text-transform: uppercase;
+  border-radius: 5px;
+  border: solid 0.25rem var(--black);
 }
 
 form {
@@ -40,7 +42,9 @@ form {
   background-color: var(--white);
   padding: 2rem;
   text-transform: Uppercase;
-  background: rgba(214, 213, 211, 0.95);
+  background: rgba(214, 213, 211, 0.97);
+  border-radius: 5px;
+  border: solid 0.25rem var(--black);
 }
 
 input,
@@ -48,6 +52,8 @@ select,
 fieldset {
   font-size: 1.2rem;
   margin: 0.15rem;
+  border-radius: 5px;
+  border: solid 0.1rem var(--black);
 }
 fieldset {
   background-color: var(--white);
