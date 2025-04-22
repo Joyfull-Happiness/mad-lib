@@ -8,14 +8,8 @@ html {
   box-sizing: inherit;
 }
 :root {
-  --orange: #fcc979;
   --black: #000000;
   --white: rgb(214, 213, 211);
-  --teal: #090909;
-  --darkteal: #92bed9;
-  --green: #d5fcda;
-  --pink: #fccdcc;
-  --yellow: #ffedcb;
 }
 .container {
   max-width: 1200px;
@@ -75,6 +69,5 @@ button {
 }
 
 button:hover {
-  background-color: var(--darkteal);
   opacity: 0.5;
 }
