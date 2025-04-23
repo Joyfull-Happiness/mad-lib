@@ -10,6 +10,9 @@ html {
 :root {
   --black: #000000;
   --white: rgb(214, 213, 211);
+  --yellow: #ffc507;
+  --red: #fc1715;
+  --blue: #36aff7;
 }
 .container {
   max-width: 1200px;
@@ -19,7 +22,7 @@ html {
 h1 {
   text-align: center;
   color: var(--black);
-  background-color: var(--white);
+  background-color: var(--yellow);
   display: inline-block;
   padding: 2rem;
   border-radius: 5px;
@@ -36,7 +39,7 @@ form {
   background-color: var(--white);
   padding: 2rem;
   text-transform: Uppercase;
-  background: rgba(214, 213, 211, 0.97);
+  background: rgba(218, 19, 19, 0.85);
   border-radius: 5px;
   border: solid 0.25rem var(--black);
 }
@@ -66,6 +69,7 @@ button {
   transition: background-color 0.3s ease;
   border-radius: 5px;
   border: solid 0.25rem var(--black);
+  background-color: var(--blue);
 }
 
 button:hover {
